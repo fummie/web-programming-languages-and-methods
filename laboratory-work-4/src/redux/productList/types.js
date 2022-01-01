@@ -1,0 +1,1 @@
+export const ADD_TO_PRODUCTLIST = 'ADD_TO_PRODUCTLIST';

@@ -1,0 +1,26 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'bin/**/*'
+    - 'spec/**/*'
+    - 'vendor/**/*'
+    - '**/Gemfile'
+
+Metrics/AbcSize:
+  Max: 34
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/CyclomaticComplexity:
+  IgnoredMethods: ['output']
+
+Metrics/PerceivedComplexity:
+    IgnoredMethods: ['output']
+
+Metrics/AbcSize:
+    IgnoredMethods: ['output']
+
+Metrics/MethodLength:
+    IgnoredMethods: ['output']

@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+group :test do
+  gem 'rspec'
+end
+
+group :development do
+  gem 'rubocop', require: false
+  gem 'reek'
+  gem 'ruby-debug-ide'
+  gem 'debase', '0.2.5.beta.2'
+end

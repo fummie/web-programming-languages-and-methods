@@ -51,6 +51,9 @@ bower.json
 # Ignore node_modules
 node_modules/
 
+# Ignore local gems
+vendor/
+
 # Ignore precompiled javascript packs
 /public/packs
 /public/packs-test

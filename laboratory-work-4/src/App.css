@@ -1,0 +1,33 @@
+.app {
+  /* Margins */
+  padding: 20px;
+
+  /* Size */
+  height: 100vh;
+  width: 100%;
+
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+}
+
+.product-list-panel {
+  /* Margins */
+  margin-right: 20px;
+
+  /* Size */
+  width: 35%;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-list-panel {
+  /* Size */
+  width: calc(65% - 20px);
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+}

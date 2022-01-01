@@ -1,0 +1,125 @@
+body {
+  font-family: 'Fira Sans';
+}
+
+.rules {
+  margin: 90px auto 0 auto;
+  width: 910px;
+}
+
+.header {
+  padding-top: 120px;
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  color: #fff;
+  background-image: url(https://pictures.s3.yandex.net/background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.card {
+  margin-right: 65px;
+  vertical-align: top;
+  display: inline-block;
+  min-height: 420px;
+  width: 420px;
+}
+
+.debug-window {
+  height: 420px;
+  resize: none;
+  border: 1px solid gray;
+  padding: 2px 4px;
+  overflow-y: scroll;
+  overflow-x: auto;
+  font-family: monospace;
+}
+
+.module {
+  height: 420px;
+  width: 420px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ff3333;
+  background-image: url('https://pictures.s3.yandex.net/grid.jpg');
+}
+
+.module-card {
+  margin-right: 0;
+}
+
+.colors-card {
+  margin-right: 0;
+}
+
+.fonts {
+  background-image: url('https://pictures.s3.yandex.net/type.jpg');
+}
+
+.colors {
+  background-image: url('https://pictures.s3.yandex.net/color.jpg');
+}
+
+.near {
+  background-image: url('https://pictures.s3.yandex.net/proximity.jpg');
+}
+
+.image {
+  height: 420px;
+  width: 420px;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.card h3 {
+  margin: 44 0 30 0;
+  font-size: 35px;
+  font-family: 'Anonymous Pro';
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 90px;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 240px;
+  font-family: 'Anonymous Pro';
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 46px auto 0 auto;
+  width: 630px;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.footer {
+  margin-top: 65px;
+  height: 100px;
+  background-color: #000;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+.logo {
+  margin: auto;
+  background-image: url(https://pictures.s3.yandex.net/logotype.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 38px;
+  width: 148px;
+}
+
+button {
+	margin-top: 15px;
+	padding: 15px;
+}

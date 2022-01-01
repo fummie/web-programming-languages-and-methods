@@ -1,0 +1,7 @@
+.basket-list {
+  /* Flex */
+  display: flex;
+  
+  /* Size */
+  height: 100%;
+}

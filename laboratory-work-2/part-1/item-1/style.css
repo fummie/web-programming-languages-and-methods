@@ -1,0 +1,38 @@
+h1 {
+  margin: 10px 0 10px 0;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 5px 0 5px 0;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+b {
+  font-weight: bold;
+  font-style: italic;
+}
+
+a {
+  color: red;
+  font-style: italic;
+}
+
+img {
+  margin: 5px 0 5px 0;
+}
+
+body {
+  margin: 15px auto 0 auto;
+  width: 80%
+}
+
+.not-header {
+  min-height: 50px;
+}
+
+.not-card {
+  margin-top: 25px;
+}

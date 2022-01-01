@@ -1,0 +1,45 @@
+.app {
+  /* Margins */
+  padding: 20px;
+
+  /* Size */
+  height: 100vh;
+  width: 100%;
+
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+}
+
+.product-list-panel {
+  /* Margins */
+  margin-right: 20px;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product {
+  /* Flex */
+  display: flex;
+  height: fit-content;
+}
+
+.product-list {
+  /* Flex */
+  display: flex;
+  height: 100%;
+}
+
+.basket-list-panel {
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-list {
+  /* Flex */
+  display: flex;
+  height: 100%;
+}
